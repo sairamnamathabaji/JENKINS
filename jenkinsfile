@@ -1,11 +1,14 @@
 node('UBUNTU'){
     stage('GIT'){
-        git 'https://github.com/wakaleo/game-of-life.git'
+        git 'https://github.com/sairamnamathabaji/myjenkins.git'
     stage('package'){
         sh 'mvn package'
     }
-    stage('archiveartifacts'){
-        archive 'game of life-web/tagret/*.war'
+    stage('archive artifacts'){
+       
     }
     }
 }
+
+
+
