@@ -4,9 +4,7 @@ node('UBUNTU'){
     stage('package'){
         sh 'mvn package'
     }
-    stage('archive artifacts'){
-       
-    }
+   
     }
 }
 
